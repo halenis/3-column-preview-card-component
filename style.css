@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100vw;    
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+body,html{
+    width: 100vw;
+    height: 98vh;
+   background: linear-gradient(to bottom,
+  hsl(179, 100%, 13%) 0%,   /* Green 950 */
+  hsl(184, 100%, 22%) 50%,  /* Cyan 800 */
+  hsl(31, 77%, 52%) 100%    /* Gold 500 */
+);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-color: ;
+    transition: 0.4s;
+    
+
+}
+
+section.container{
+    
+    width: 375px;
+    border-radius: 50px; 
+    transition: 0.4s;
+    
+    
+    
+}
+
+div.sedan{ 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
+    width: 375px;
+    background-color: hsl(31, 77%, 52%);
+
+    transition: transform 0.7s ease;
+
+    
+}
+
+div.sedan:hover{
+      transform: scale(1.1); /* aumenta 10% de forma uniforme */
+    
+}
+
+div.suv{   
+    
+    
+    width: 375px;
+    height: fit-content;
+    background-color: hsl(184, 100%, 22%);
+
+     transition: transform 0.7s ease;
+    
+}
+
+div.suv:hover{
+      transform: scale(1.1); /* aumenta 10% de forma uniforme */
+    
+}
+
+
+div.luxury{    
+    
+    width: 375px;
+    height: fit-content;
+    
+    background-color: hsl(179, 100%, 13%);
+    margin-bottom: 5px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    transition: transform 0.7s ease;
+}
+
+div.luxury:hover{
+      transform: scale(1.1); /* aumenta 10% de forma uniforme */
+    
+}
+
+
+img{
+    width: 190px;
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    width: fit-content;
+    font-size: 2em;
+    width: 100%;
+    padding-left: 70px;
+    
+
+    
+}
+
+p{
+    width: 375px;
+    padding: 10px 70px 20px 70px;
+    
+    color: white;
+
+    line-height: 30px;
+}
+
+.botao{
+    width: 100%;
+    
+}
+
+.saber1{
+    width: 50%;
+    padding: 10px;
+    margin-left:70px ;
+    margin-bottom: 15px;
+    border-radius: 27px;
+    border: none;
+    color: hsl(31, 77%, 52%);;
+}
+
+.saber2{
+    width: 50%;
+    padding: 10px;
+    margin-left:70px ;
+    margin-bottom: 15px;
+    border-radius: 27px;
+    border: none;
+    color: hsl(184, 100%, 22%)
+}
+
+.saber3{
+    width: 50%;
+    padding: 10px;
+    margin-left:70px ;
+    margin-bottom: 15px;
+    border-radius: 27px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+}
+
+.developed{
+    font-size: 1em;
+    color: rgb(10, 53, 49);
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+@media screen and (min-width: 850px) { 
+    /* estilos CSS aqui */
+
+    body,html{
+    display: flex;
+    background: linear-gradient(
+  to right,
+  hsl(179, 100%, 13%),  /* Green 950 */
+  hsl(184, 100%, 22%),  /* Cyan 800 */
+  hsl(31, 77%, 52%)     /* Gold 500 */
+);
+
+}
+    
+    main{        
+        display: flex;
+        flex-direction: column;
+        transition: 0.4s;
+        
+    }
+
+    section.container{    
+    height: fit-content;
+    flex-direction: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+
+    transition: 0.4s;
+    
+    
+}
+
+div.sedan{ 
+    
+    height: 480px;
+    
+    width: 375px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    transition: 1s;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+div.sedan:hover{
+    height: 600px;
+    
+}
+
+div.luxury:hover{
+    height: 700px;    
+    
+}
+
+
+
+div.suv{   
+    padding: 10px;  
+    height: 500px;
+    width: 375px;
+    
+    background-color: hsl(184, 93%, 36%);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-radius: 10px;
+
+    transition: 1s;
+    
+}
+
+div.suv:hover{
+    height: 600px;
+}
+
+
+div.luxury{    
+    margin-top: 5px;
+    width: 375px;
+    height: 600px;
+    
+    
+    background-color: hsl(179, 100%, 13%);
+    margin-bottom: 5px;
+
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-radius: 10px;
+
+    transition: 1s;
+}
+div.sedan p{
+    line-height: 45px;
+    padding-bottom: 5px;
+
+}
+
+
+div.luxury p{
+    line-height: 45px;
+    padding: 70px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
