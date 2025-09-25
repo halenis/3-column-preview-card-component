@@ -217,8 +217,15 @@ div.sedan{
 
     transition: 1s;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 1s;
+
+    line-height: ;
 }
+
+div.sedan p{
+    line-height: px;
+}
+
 
 div.sedan:hover{
     height: 600px;
@@ -267,7 +274,7 @@ div.luxury{
     transition: 1s;
 }
 div.sedan p{
-    line-height: 45px;
+    line-height: 25px;
     padding-bottom: 5px;
 
 }
